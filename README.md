@@ -1,7 +1,21 @@
 # Mythic Witches
-An open source module for Mythic Bastionland. This repository contains everything needed to make your own version of the module and is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+An unoficial open source module for Chris McDowall's [Mythic Bastionland](https://chrismcdee.itch.io/mythic-bastionland). This repository contains everything needed to make your own version of the module and is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
 
 **View the latest published PDF [HERE](published/mythic-witches-0.1.1-preview.pdf).**
+
+## Impetus and Philosphy
+This project started from a love for Mythic Bastionland and a desire to explore the game concept in a few ways:
+- If Knights are parts of the power structures of realms; what would it be like to play characters outside of those structures?
+- If the concept of a Knight is significantly informed by combat ability, what would it be like to play characters unacustomed to it?
+
+This lead to the concept of 'witches' as stand-ins for Knights and a narrative move away from war and rule and toward cunning and subterfuge. These are not witches in the traditional sense; they can be anyone who experiences an Omen and is awakened, chosing to live as an itenerant outsider following myths.
+
+## Goals
+This module is in continous development, but the end goal includes the following content.
+- 20 Witch character classes
+- 8 Myths
+- 8 Events (single Omen Myths for worldbuilding/flavor)
+- Multiple large random tables
 
 ## Structure
 To make things simple, most of the conent of the module is managed separately from the formatting configuration as spreadsheets in google sheets (configured in the projects.yaml file). This makes working on repetitive format content (i.e. Witches and Myths) simple and easy to manage (especially with multiple collaborators). These sheets are pulled into the libary on-demand at render time and are periodically committed for proper versioning.
