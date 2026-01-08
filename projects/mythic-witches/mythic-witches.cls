@@ -119,7 +119,7 @@
     \end{minipage}
     \par\noindent{\color{VLRed}\rule{\linewidth}{1pt}\par}
     \vspace{1em}
-    \includegraphics[width=\textwidth]{img/#4}
+    \includegraphics[width=\textwidth]{images/witches/#4}
 }
 \newcommand{\startWitchPage}[4]{
     \witchName{#1}{#2}{#3}{#4}
@@ -219,7 +219,7 @@
     \end{minipage}
     \par\noindent{\color{VLRed}\rule{\linewidth}{1pt}\par}
     \vspace{1em}
-    \includegraphics[width=\textwidth]{img/myths/#4}
+    \includegraphics[width=\textwidth]{images/myths/#4}
 }
 \newcommand{\startMythPage}[4]{
     \mythName{#1}{#2}{#3}{#4}
