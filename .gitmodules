@@ -1,0 +1,3 @@
+[submodule "publishing-tools"]
+	path = publishing-tools
+	url = git@github.com:versaliminal/publishing-tools.git
