@@ -1,6 +1,8 @@
 # mythic-witches
 An open source module for Mythic Bastionland. This repository contains everything needed to make your own version of the module and is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
+**View the latest published PDF [HERE](published/mythic-witches-0.1.1-preview.pdf).**
+
 # Rendering the module locally
 ## Prerequisites
 - Install a modern LaTex distribution which provides pdflatex
