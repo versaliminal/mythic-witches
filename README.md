@@ -15,12 +15,22 @@ This module is in continous development, but the end goal includes the following
 - 20 Witch character classes
 - 8 Myths
 - 8 Events (single Omen Myths for worldbuilding/flavor)
+- Blank character sheet template
 - Multiple large random tables
+- Lists of questions for world building
 
 ## Structure
+### Content
 To make things simple, most of the conent of the module is managed separately from the formatting configuration as spreadsheets in google sheets (configured in the projects.yaml file). This makes working on repetitive format content (i.e. Witches and Myths) simple and easy to manage (especially with multiple collaborators). These sheets are pulled into the libary on-demand at render time and are periodically committed for proper versioning.
 
-Formatting of the content is accomplished via Latex for singleton content (i.e. the rules addendum) and jinja2 templated Latex for repetitive format content (i.e. Witches and Myths). Mapping between sheets and templates is defined in the projects.yaml file and all templates are applied per-row. Templates and the main tex file heavily leverage latex commands defined in the class file to keep the layout clean where possible. This also makes re-styling of the content simpler.
+Complex objects like random/choice tables and character blocks are defined in the sheets as yaml, which is automatically parsed into objects to be consumed at render time.
+
+Singleton content (e.g. the rules addendum) is currently managed directly with the formatting, but it is possible this will change in the future.
+
+### Formatting
+Formatting of the content is accomplished via Latex, with jinja2 templates used for repetitive format content. Mapping between sheets and templates is defined in the projects.yaml file and all templates are applied per-row.
+
+Templates and the main tex file heavily leverage latex commands defined in the class file to keep the layout clean where possible. This also makes re-styling of the content simpler.
 
 Images are stored in the images directory and are stored via git LFS to reduce repository slowdowns. All images used should be labeled with a source description in the source sheets to ensure that usage is valid from a licensing perspective.
 
